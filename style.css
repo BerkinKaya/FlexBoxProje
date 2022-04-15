@@ -1,0 +1,167 @@
+.header{
+    background-color: black;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.resim {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ .header p{ 
+    color: grey;
+    margin: 5px;
+    display: flex;
+    text-decoration: underline;
+
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    font-family: Arial, Helvetica;
+}
+
+.yazi{
+    display: flex;
+
+}
+
+.orta{
+    height: 700px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.cizgi h1{
+    border-bottom: 1px solid seashell;
+    margin: 0;
+}
+.yaziresim{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+}
+.ortalt{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    color: grey;
+    flex-direction: column;
+  
+}
+.resimalt{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica;
+    display: flex;
+    
+}
+.fall{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.fall p{
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.donut {
+margin-left: 30px;
+}
+.sonresim{
+    justify-content: center;
+    display: flex;
+    position: relative;
+
+}
+.yaziresim2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    color: grey;
+    font-size: 25px;
+
+}
+.yaziresim3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    color: grey;
+    font-size: 25px;
+    margin-top: 100px;
+}
+.yaziresim4{
+    background-color: black;
+    width: 300px;
+    color: grey;
+    text-align: center;
+    top: 8px;  
+    
+}
+.local{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-top: 200px;
+    width: 50%;
+    flex-direction: row;
+    margin: 200px;
+    
+
+    
+}
+.local div{
+    margin: 10px ;
+    height: 200px;
+    width: 250px;
+    
+}
+.footer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+    background-color: black;
+    height: 200px;
+    color: grey;
+}
+.footer h5{
+    margin-top: 15px;
+    
+}
+.copy{
+    text-align: left;
+    color: grey;
+    font-size: 22px;
+    display: flex;
+    
+}
